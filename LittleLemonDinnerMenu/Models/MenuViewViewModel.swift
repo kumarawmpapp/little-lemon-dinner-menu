@@ -16,27 +16,27 @@ class MenuViewViewModel: ObservableObject {
         MenuItem(id: UUID(), title: "Caprese Salad", menuCategory: .food, ordersCount: 0, price: 12, ingredients: [.tomato, .mozzarella, .basil], image: "5"),
         MenuItem(id: UUID(), title: "Eggplant Parmesan", menuCategory: .food, ordersCount: 10, price: 14, ingredients: [.eggplant, .tomatoSauce, .mozzarella], image: "6"),
         MenuItem(id: UUID(), title: "Risotto Milanese", menuCategory: .food, ordersCount: 10, price: 16, ingredients: [.arborioRice, .saffron, .beefBroth, .parmesan], image: "7"),
-        MenuItem(id: UUID(), title: "Pizza Margherita", menuCategory: .food, ordersCount: 13, price: 12, ingredients: [.tomatoSauce, .mozzarella], image: "8"),
-        MenuItem(id: UUID(), title: "Spaghetti Carbonara", menuCategory: .food, ordersCount: 11, price: 15, ingredients: [.pasta, .egg, .bacon, .parmesan], image: "9"),
-        MenuItem(id: UUID(), title: "Lasagna", menuCategory: .food, ordersCount: 10, price: 18, ingredients: [.pasta, .beef, .tomatoSauce, .mozzarella], image: "10"),
-        MenuItem(id: UUID(), title: "Bruschetta", menuCategory: .food, ordersCount: 2, price: 8, ingredients: [.bread, .tomato, .basil], image: "11"),
-        MenuItem(id: UUID(), title: "Caprese Salad", menuCategory: .food, ordersCount: 3, price: 12, ingredients: [.tomato, .mozzarella, .basil], image: "12")
+        MenuItem(id: UUID(), title: "Pizza Margherita", menuCategory: .food, ordersCount: 13, price: 12, ingredients: [.tomatoSauce, .mozzarella], image: "1"),
+        MenuItem(id: UUID(), title: "Spaghetti Carbonara", menuCategory: .food, ordersCount: 11, price: 15, ingredients: [.pasta, .egg, .bacon, .parmesan], image: "2"),
+        MenuItem(id: UUID(), title: "Lasagna", menuCategory: .food, ordersCount: 10, price: 18, ingredients: [.pasta, .beef, .tomatoSauce, .mozzarella], image: "3"),
+        MenuItem(id: UUID(), title: "Bruschetta", menuCategory: .food, ordersCount: 2, price: 8, ingredients: [.bread, .tomato, .basil], image: "4"),
+        MenuItem(id: UUID(), title: "Caprese Salad", menuCategory: .food, ordersCount: 3, price: 12, ingredients: [.tomato, .mozzarella, .basil], image: "5")
     ]
     @Published var drinkMenuItems: [MenuItem] = [
-        MenuItem(id: UUID(), title: "Espresso", menuCategory: .drink, ordersCount: 10, price: 3, ingredients: [.espressoBeans, .water], image: "13"),
-        MenuItem(id: UUID(), title: "Cappuccino", menuCategory: .drink, ordersCount: 4, price: 4, ingredients: [.espresso, .milk, .foam], image: "14"),
-        MenuItem(id: UUID(), title: "Latte", menuCategory: .drink, ordersCount: 6, price: 4, ingredients: [.espresso, .milk], image: "15"),
-        MenuItem(id: UUID(), title: "Italian Soda", menuCategory: .drink, ordersCount: 2, price: 4, ingredients: [.carbonatedWater, .syrup], image: "16"),
-        MenuItem(id: UUID(), title: "Espresso", menuCategory: .drink, ordersCount: 1, price: 3, ingredients: [.espressoBeans, .water], image: "17"),
-        MenuItem(id: UUID(), title: "Cappuccino", menuCategory: .drink, ordersCount: 4, price: 4, ingredients: [.espresso, .milk, .foam], image: "18"),
-        MenuItem(id: UUID(), title: "Latte", menuCategory: .drink, ordersCount: 1, price: 4, ingredients: [.espresso, .milk], image: "19"),
-        MenuItem(id: UUID(), title: "Italian Soda", menuCategory: .drink, ordersCount: 0, price: 4, ingredients: [.carbonatedWater, .syrup], image: "20")
+        MenuItem(id: UUID(), title: "Espresso", menuCategory: .drink, ordersCount: 10, price: 3, ingredients: [.espressoBeans, .water], image: "8"),
+        MenuItem(id: UUID(), title: "Cappuccino", menuCategory: .drink, ordersCount: 4, price: 4, ingredients: [.espresso, .milk, .foam], image: "9"),
+        MenuItem(id: UUID(), title: "Latte", menuCategory: .drink, ordersCount: 6, price: 4, ingredients: [.espresso, .milk], image: "10"),
+        MenuItem(id: UUID(), title: "Italian Soda", menuCategory: .drink, ordersCount: 2, price: 4, ingredients: [.carbonatedWater, .syrup], image: "11"),
+        MenuItem(id: UUID(), title: "Espresso", menuCategory: .drink, ordersCount: 1, price: 3, ingredients: [.espressoBeans, .water], image: "8"),
+        MenuItem(id: UUID(), title: "Cappuccino", menuCategory: .drink, ordersCount: 4, price: 4, ingredients: [.espresso, .milk, .foam], image: "9"),
+        MenuItem(id: UUID(), title: "Latte", menuCategory: .drink, ordersCount: 1, price: 4, ingredients: [.espresso, .milk], image: "10"),
+        MenuItem(id: UUID(), title: "Italian Soda", menuCategory: .drink, ordersCount: 0, price: 4, ingredients: [.carbonatedWater, .syrup], image: "11")
     ]
     @Published var dessertMenuItems: [MenuItem] = [
-        MenuItem(id: UUID(), title: "Gelato", menuCategory: .dessert, ordersCount: 0, price: 5, ingredients: [.cream, .milk, .sugar, .flavorings], image: "21"),
-        MenuItem(id: UUID(), title: "Tiramisu", menuCategory: .dessert, ordersCount: 4, price: 8, ingredients: [.mascarpone, .espresso, .cocoa, .ladyfingers], image: "22"),
-        MenuItem(id: UUID(), title: "Cannoli", menuCategory: .dessert, ordersCount: 3, price: 6, ingredients: [.ricotta, .sugar, .chocolateChips, .pastryCrust], image: "23"),
-        MenuItem(id: UUID(), title: "Panna Cotta", menuCategory: .dessert, ordersCount: 3, price: 7, ingredients: [.cream, .milk, .sugar, .vanilla], image: "24")
+        MenuItem(id: UUID(), title: "Gelato", menuCategory: .dessert, ordersCount: 0, price: 5, ingredients: [.cream, .milk, .sugar, .flavorings], image: "12"),
+        MenuItem(id: UUID(), title: "Tiramisu", menuCategory: .dessert, ordersCount: 4, price: 8, ingredients: [.mascarpone, .espresso, .cocoa, .ladyfingers], image: "13"),
+        MenuItem(id: UUID(), title: "Cannoli", menuCategory: .dessert, ordersCount: 3, price: 6, ingredients: [.ricotta, .sugar, .chocolateChips, .pastryCrust], image: "14"),
+        MenuItem(id: UUID(), title: "Panna Cotta", menuCategory: .dessert, ordersCount: 3, price: 7, ingredients: [.cream, .milk, .sugar, .vanilla], image: "15")
     ]
     
     @Published var activeCategories: [MenuCategory] = [.food, .drink, .dessert]

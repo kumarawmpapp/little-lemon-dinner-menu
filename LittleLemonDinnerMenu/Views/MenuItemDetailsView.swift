@@ -13,7 +13,9 @@ struct MenuItemDetailsView: View {
     var body: some View {
         VStack {
             Image(item.image)
-                .padding()
+                .resizable()
+                .aspectRatio(1, contentMode: .fill)
+                .frame(width: UIScreen.main.bounds.width / 1.5, height: UIScreen.main.bounds.width / 1.5)
             
             Text("Price:")
                 .fontWeight(.bold)
